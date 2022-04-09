@@ -1,0 +1,52 @@
+.text-tango {
+    color: rgb(233, 15, 149) !important;
+}
+
+#header img{
+    width: 80px;
+}
+
+#main .carousel-inner img {
+    max-height: 50vh;
+    object-fit: cover;
+    filter: grayscale(30%)
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    z-index: 1;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row 
+{
+    height: 100%;
+}
+
+.btn-registro {
+    background-color: #420433;
+    color: white
+}
+
+.btn-registro:hover {
+    background-color: #300423;
+}
+
+#footer {
+    background-color: #420433;
+}
+
+a {
+    color: white;
+}
+
